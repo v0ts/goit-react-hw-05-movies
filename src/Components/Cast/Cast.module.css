@@ -1,0 +1,43 @@
+.castSection {
+	/* width: 100%; */
+	padding: 20px;
+}
+
+.list {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	padding: 0;
+	margin: 0;
+}
+
+.item {
+	display: flex;
+	width: 800px;
+	border: 2px solid wheat;
+	border-radius: 30px;
+}
+
+.img {
+	border-radius: 25px 0 0 25px;
+}
+
+.box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 10px;
+	width: 100%;
+	background-color: wheat;
+	padding-left: 20px;
+	border-radius: 0 25px 25px 0;
+}
+
+.name,
+.character {
+	margin: 0;
+	padding: 0;
+}
